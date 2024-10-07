@@ -1,34 +1,31 @@
 import { useRef, useContext } from "react"
 
-import Input from "./utilities/Input.jsx"
-import Modal from "./utilities/Modal.jsx";
-import { ProjectContext } from "../store/project-context"
+import Input from "../utilities/Input.jsx"
+import Modal from "../utilities/Modal.jsx";
+import { TreeContext } from "../../store/tree-context.jsx"
 
 
-export default function NewProject() {
-    const {addNewProjectHandler, cancelAddNewProjectHandler} = useContext(ProjectContext)
+export default function NewTree() {
+    const {addTreeHandler, cancelAddNewTreeHandler} = useContext(TreeContext)
     
     const modal = useRef();
 
     const title = useRef();
     const description = useRef();
-    const dueDate = useRef();
 
     function handleSave() {
         const enteredTitle = title.current.value;
         const enteredDescription = description.current.value;
-        const enteredDueDate = dueDate.current.value;
 
         if (
             enteredTitle.trim() === "" ||
-            enteredDescription.trim() === "" ||
-            enteredDueDate.trim() === ""
+            enteredDescription.trim() === "" 
         ) {
             modal.current.open()
             return
         }
         else {
-            addNewProjectHandler({ title: enteredTitle, description: enteredDescription, dueDate: enteredDueDate });
+            addTreeHandler({ title: enteredTitle, description: enteredDescription});
         }
     }
 
@@ -42,11 +39,10 @@ export default function NewProject() {
                 <div>
                     <Input type="text" ref={title} label="Title" />
                     <Input ref={description} isTextArea={true} label="Description" />
-                    <Input type="date" ref={dueDate} label="Due date" />
                 </div>
                 <menu className="flex items-center justify-end gap-4 my-4">
                     <li>
-                        <button onClick={cancelAddNewProjectHandler} className="text-stone-800 hover:text-stone-950">Cancel</button>
+                        <button onClick={cancelAddNewTreeHandler} className="text-stone-800 hover:text-stone-950">Cancel</button>
                     </li>
                     <li>
                         <button onClick={handleSave}

@@ -1,31 +1,31 @@
 import { useContext } from 'react'
 
-import Sidebar from "./components/Sidebar.jsx";
-import NewProject from "./components/NewProject.jsx";
-import NoProjectSelected from "./components/NoProjectSelected.jsx";
-import SelectedProject from "./components/SelectedProject.jsx";
-import { ProjectContext } from './store/project-context.jsx';
+import Sidebar from "./components/Sidebar/Sidebar.jsx";
+import NewTree from "./components/MainSection/NewTree.jsx";
+import NoTreeSelected from "./components/MainSection/NoTreeSelected.jsx";
+import SelectedTree from "./components/MainSection/SelectedTree.jsx";
+import { TreeContext } from './store/tree-context.jsx';
 
 function App() {
-  const {selectedProjectId} = useContext(ProjectContext)
+  const {selectedTreeId} = useContext(TreeContext)
 
-  let projectsContent = "";
+  let treesContent = "";
 
-  if (selectedProjectId === null) {
-    projectsContent = <NewProject />
+  if (selectedTreeId === null) {
+    treesContent = <NewTree />
   }
-  else if (selectedProjectId === undefined) {
-    projectsContent = <NoProjectSelected />
+  else if (selectedTreeId === undefined) {
+    treesContent = <NoTreeSelected />
   }
   else {
-    projectsContent = <SelectedProject  />
+    treesContent = <SelectedTree />
   }
 
   return (
     <>
       <main className="h-screen my-8 flex gap-8">
         <Sidebar />
-        {projectsContent}
+        {treesContent}
       </main>
     </>
   );
