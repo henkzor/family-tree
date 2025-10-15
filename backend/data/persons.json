@@ -1,0 +1,172 @@
+[
+    {
+        "firstName": "Fisken",
+        "lastName": "Gunnar",
+        "birthDate": "2025-10-08",
+        "description": "asdf",
+        "treeId": "0.10266",
+        "id": "95663",
+        "displayName": "Fisken Gunnar",
+        "relationLevel": 100,
+        "relationType": null,
+        "relationPerson": null
+    },
+    {
+        "firstName": "Fisken",
+        "lastName": "Gunnar",
+        "birthDate": "2025-10-08",
+        "description": "asdf",
+        "treeId": "0.12754",
+        "id": "32511",
+        "displayName": "Fisken Gunnar",
+        "relationLevel": 99,
+        "relationType": 0,
+        "relationPerson": "67262"
+    },
+    {
+        "firstName": "Magnus",
+        "lastName": "fdsa",
+        "birthDate": "2025-10-16",
+        "description": "sdf",
+        "treeId": "0.10266",
+        "id": "3511",
+        "displayName": "Magnus fdsa",
+        "relationLevel": 101,
+        "relationType": 1,
+        "relationPerson": "16906"
+    },
+    {
+        "firstName": "Hallow",
+        "lastName": "Prallow",
+        "birthDate": "2025-10-16",
+        "description": "ASd",
+        "treeId": "0.10266",
+        "id": "16906",
+        "displayName": "Hallow Prallow",
+        "relationLevel": 100,
+        "relationType": null,
+        "relationPerson": null
+    },
+    {
+        "firstName": "Hallow",
+        "lastName": "Prallow",
+        "birthDate": "2025-10-16",
+        "description": "zxcv",
+        "treeId": "6516",
+        "id": "5826",
+        "displayName": "Hallow Prallow",
+        "relationLevel": 100,
+        "relationType": null,
+        "relationPerson": null
+    },
+    {
+        "firstName": "Barnet",
+        "lastName": "Strändbörg",
+        "birthDate": "2024-01-22",
+        "description": "Ett litet bärn",
+        "treeId": "0.12754",
+        "id": "67262",
+        "displayName": "Barnet Strändbörg",
+        "relationLevel": 99
+    },
+    {
+        "firstName": "Henrik",
+        "lastName": "Karlsson",
+        "birthDate": "2025-03-19",
+        "description": "Were",
+        "relationLevel": 100,
+        "displayName": "Henrik Karlsson",
+        "treeId": "0.66163",
+        "id": "0.44141"
+    },
+    {
+        "firstName": "Eva",
+        "lastName": "Karlsson",
+        "birthDate": "2025-03-19",
+        "description": "Were",
+        "relationType": "foralder",
+        "relationPerson": "0.44141",
+        "relationLevel": 101,
+        "displayName": "Eva Karlsson",
+        "treeId": "0.66163",
+        "id": "0.96143"
+    },
+    {
+        "firstName": "Johnny",
+        "lastName": "Karlsson",
+        "birthDate": "2025-03-19",
+        "description": "Were",
+        "relationType": 1,
+        "relationPerson": "71305",
+        "relationLevel": 101,
+        "displayName": "Johnny Karlsson",
+        "treeId": "0.66163",
+        "id": "0.79533"
+    },
+    {
+        "firstName": "Erik",
+        "lastName": "Karlsson",
+        "birthDate": "2025-03-19",
+        "description": "Were",
+        "relationType": 0,
+        "relationPerson": "0.44141",
+        "relationLevel": 100,
+        "displayName": "Erik Karlsson",
+        "treeId": "0.66163",
+        "id": "0.56735"
+    },
+    {
+        "firstName": "Magnus",
+        "lastName": "Karlsson",
+        "birthDate": "2025-03-19",
+        "description": "Were",
+        "relationType": "syskon",
+        "relationPerson": "0.44141",
+        "relationLevel": 100,
+        "displayName": "Magnus Karlsson",
+        "treeId": "0.66163",
+        "id": "0.48578"
+    },
+    {
+        "firstName": "Isak",
+        "lastName": "Strandberg",
+        "birthDate": "2025-03-19",
+        "description": "Were",
+        "relationType": "barn",
+        "relationPerson": "0.44141",
+        "relationLevel": 99,
+        "displayName": "Isak Strandberg",
+        "treeId": "0.66163",
+        "id": "0.71376"
+    },
+    {
+        "firstName": "Birgit",
+        "lastName": "Karlsson",
+        "birthDate": "1926-06-09",
+        "description": "Farmor",
+        "relationType": "foralder",
+        "relationPerson": "0.79533",
+        "relationLevel": 102,
+        "displayName": "Birgit Karlsson",
+        "treeId": "0.66163",
+        "id": "0.23905"
+    },
+    {
+        "firstName": "Päppä",
+        "lastName": "Strändbörg",
+        "displayName": "Päppä Strändbörg",
+        "description": "Big Päpä",
+        "id": "0.32152",
+        "relationLevel": 100,
+        "treeId": "0.12754"
+    },
+    {
+        "firstName": "Mämmä",
+        "lastName": "Strändbörg",
+        "displayName": "Mämmä Strändbörg",
+        "description": "Mämän i fämiljen",
+        "id": "0.15701",
+        "relationLevel": 100,
+        "treeId": "0.12754"
+    }
+]
